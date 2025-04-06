@@ -18,14 +18,12 @@ const Navigation = () => {
       <div className="staymate-container flex justify-between items-center">
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center">
-            <div className="bg-staymate-orange rounded-full p-2 mr-2">
-              <img 
-                src="/lovable-uploads/1632d0ae-29e0-45f7-a83c-2c00a850e42c.png" 
-                alt="StayMate Logo" 
-                className="h-8 w-8 object-contain"
-              />
-            </div>
-            <span className="text-2xl font-bold text-staymate-brown">StayMate</span>
+            <img 
+              src="/lovable-uploads/03047961-7179-472d-9c04-e739df16b001.png" 
+              alt="StayMate Logo" 
+              className="h-12 w-12 object-contain"
+            />
+            <span className="text-2xl font-bold text-staymate-brown ml-2">StayMate</span>
           </Link>
         </div>
 
