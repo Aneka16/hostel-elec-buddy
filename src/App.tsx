@@ -8,12 +8,10 @@ import Index from "./pages/Index";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
+import Rooms from "./pages/Rooms";
+import ElectricalReport from "./pages/ElectricalReport";
 import NotFound from "./pages/NotFound";
 import { AuthProvider } from "./contexts/AuthContext";
-import Doctors from "./pages/Doctors";
-import Hospitals from "./pages/Hospitals";
-import Services from "./pages/Services";
-import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
@@ -29,10 +27,8 @@ const App = () => (
             <Route path="/signin" element={<SignIn />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/doctors" element={<Doctors />} />
-            <Route path="/hospitals" element={<Hospitals />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/rooms" element={<Rooms />} />
+            <Route path="/electrical-report" element={<ElectricalReport />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
