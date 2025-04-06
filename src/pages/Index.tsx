@@ -7,10 +7,7 @@ import {
   PhoneCall, 
   Users, 
   Zap, 
-  CheckCircle,
-  Code,
-  Database,
-  Laptop
+  CheckCircle
 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 
@@ -145,54 +142,6 @@ const Index = () => {
           </div>
         </section>
         
-        {/* Tech Stack Section */}
-        <section className="py-16 bg-staymate-beige">
-          <div className="staymate-container">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-staymate-brown mb-4">Our Tech Stack</h2>
-              <p className="text-staymate-brown max-w-xl mx-auto">Built with modern technologies for optimal performance and user experience</p>
-            </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
-                <div className="rounded-full bg-blue-100 p-3 mb-4">
-                  <Code className="h-6 w-6 text-blue-600" />
-                </div>
-                <h3 className="font-semibold mb-2">React</h3>
-                <p className="text-sm text-gray-600">Frontend library for building interactive UIs</p>
-              </div>
-              
-              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
-                <div className="rounded-full bg-cyan-100 p-3 mb-4">
-                  <Laptop className="h-6 w-6 text-cyan-600" />
-                </div>
-                <h3 className="font-semibold mb-2">TypeScript</h3>
-                <p className="text-sm text-gray-600">Strongly typed programming language</p>
-              </div>
-              
-              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
-                <div className="rounded-full bg-indigo-100 p-3 mb-4">
-                  <div className="h-6 w-6 flex items-center justify-center">
-                    <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6 text-indigo-600">
-                      <path d="M12 6v12m-8-6h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                    </svg>
-                  </div>
-                </div>
-                <h3 className="font-semibold mb-2">Tailwind CSS</h3>
-                <p className="text-sm text-gray-600">Utility-first CSS framework</p>
-              </div>
-              
-              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
-                <div className="rounded-full bg-emerald-100 p-3 mb-4">
-                  <Database className="h-6 w-6 text-emerald-600" />
-                </div>
-                <h3 className="font-semibold mb-2">Tanstack Query</h3>
-                <p className="text-sm text-gray-600">Powerful data synchronization</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        
         {/* CTA Section */}
         <section className="py-16 bg-gradient-to-r from-staymate-orange to-orange-500">
           <div className="staymate-container text-center">
@@ -225,7 +174,7 @@ const Index = () => {
             <div className="mb-6 md:mb-0">
               <div className="flex items-center justify-center md:justify-start">
                 <img 
-                  src="/lovable-uploads/1632d0ae-29e0-45f7-a83c-2c00a850e42c.png" 
+                  src="/lovable-uploads/a378bc6a-e4a7-4b28-9b2d-fb70b1bc8991.png" 
                   alt="StayMate Logo" 
                   className="h-12 w-12 object-contain"
                 />
