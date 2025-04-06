@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/03047961-7179-472d-9c04-e739df16b001.png" 
+              src="/lovable-uploads/1632d0ae-29e0-45f7-a83c-2c00a850e42c.png" 
               alt="StayMate Logo" 
               className="h-12 w-12 object-contain"
             />
