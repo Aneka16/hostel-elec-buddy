@@ -5,44 +5,44 @@
 
 @layer base {
   :root {
-    --background: 36 33% 94%;
-    --foreground: 25 47% 36%;
+    --background: 0 0% 98%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 47% 36%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 47% 36%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 25 95% 53%;
+    --primary: 213 94% 48%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 36 42% 92%;
-    --secondary-foreground: 25 47% 36%;
+    --secondary: 213 30% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 36 33% 90%;
-    --muted-foreground: 25 30% 45%;
+    --muted: 213 20% 94%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 36 42% 92%;
-    --accent-foreground: 25 47% 36%;
+    --accent: 213 30% 96%;
+    --accent-foreground: 222 47% 11%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 25 30% 85%;
-    --input: 25 30% 85%;
-    --ring: 25 95% 53%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 213 94% 48%;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 36 33% 94%;
-    --sidebar-foreground: 25 47% 36%;
-    --sidebar-primary: 25 95% 53%;
+    --sidebar-background: 213 30% 96%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 213 94% 48%;
     --sidebar-primary-foreground: 210 40% 98%;
-    --sidebar-accent: 36 42% 92%;
-    --sidebar-accent-foreground: 25 47% 36%;
-    --sidebar-border: 25 30% 85%;
-    --sidebar-ring: 25 95% 53%;
+    --sidebar-accent: 213 30% 96%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214.3 31.8% 91.4%;
+    --sidebar-ring: 213 94% 48%;
   }
 }
 
@@ -52,7 +52,7 @@
   }
 
   body {
-    @apply bg-staymate-beige text-staymate-brown;
+    @apply bg-background text-foreground;
   }
 }
 
@@ -60,41 +60,8 @@
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
-.staymate-card {
-  @apply bg-white rounded-xl shadow-md p-6 transition-all duration-300 hover:shadow-lg;
-}
-
-.staymate-btn-primary {
-  @apply bg-staymate-orange text-white px-6 py-2 rounded-full font-medium hover:bg-orange-600 transition-colors duration-300;
-}
-
-.staymate-btn-secondary {
-  @apply bg-white text-staymate-brown border border-staymate-brown px-6 py-2 rounded-full font-medium hover:bg-staymate-beige transition-colors duration-300;
-}
-
-.staymate-input {
-  @apply w-full p-3 rounded-lg border border-staymate-dark-beige bg-white focus:ring-2 focus:ring-staymate-orange focus:border-staymate-orange outline-none transition-all duration-300;
-}
-
-.staymate-label {
-  @apply block text-sm font-medium text-staymate-brown mb-2;
-}
-
-/* Additional animations and effects */
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-.animate-float {
-  animation: float 4s ease-in-out infinite;
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 .hover-lift {
